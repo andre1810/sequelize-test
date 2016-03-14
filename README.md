@@ -46,3 +46,12 @@
     - located at: `./db/base/.sequelizerc`
   - Make sure the relative path for "config" is set to match the main config.json
     - The main config.json is located at: `./db/config.json`
+
+
+## Execute migrations
+
+- First prepare executing migrations by running the preparation gulp task
+  - This will copy all migrations and models into a single folder structure so that normal sequelize-cli commands can work on them
+  - gulp prepare_migrations
+- Now you can run any common sequelize-cli commands in the root directory or use the gulp command executing the migrations:
+  - gulp migrate
