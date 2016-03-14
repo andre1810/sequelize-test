@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "test",
+    "password": "test",
+    "database": "secure_access_api",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "migrationStorage": "json",
+    "migrationStoragePath": "sequelizeMeta.json"
+  },
+  "test": {
+    "username": "test",
+    "password": "test",
+    "database": "secure_access_api",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "migrationStorage": "json",
+    "migrationStoragePath": "sequelizeMeta.json"
+  },
+  "production": {
+    "username": "test",
+    "password": "test",
+    "database": "secure_access_api",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "migrationStorage": "json",
+    "migrationStoragePath": "sequelizeMeta.json"
+  }
+}
