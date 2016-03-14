@@ -52,6 +52,6 @@
 
 - First prepare executing migrations by running the preparation gulp task
   - This will copy all migrations and models into a single folder structure so that normal sequelize-cli commands can work on them
-  - gulp prepare_migrations
+  - `gulp prepare_migrations`
 - Now you can run any common sequelize-cli commands in the root directory or use the gulp command executing the migrations:
-  - gulp migrate
+  - `gulp migrate`
